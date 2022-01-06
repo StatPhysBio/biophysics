@@ -12,5 +12,9 @@ Notably, this page is subject to change and will be updated periodically as the 
 ### Part 0: Setup
 Week 0/1
 
-### Part 1: Python tutorial, numerical differentiation and integration, and plotting 
+### Part 1: Python tutorial
 Week 1
+
+### Part 2: Numerical integration and the SIR model
+
+Week 2
