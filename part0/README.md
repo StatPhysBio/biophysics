@@ -23,18 +23,18 @@ Follow the instructions there and pick whatever options are indicated as the def
 
 ## Setting up the environment
 At this point, we should now have the barebones Miniconda.
-There is a file called `env.yml` in this directory.
+There is a file called `env.yml` in this directory (StatPhysBio/biophysics/part0/ on github).
 This is a configuration file which tells Miniconda to create a virtual environment called `biophys2022` and installs all the packages that we foreseeably need for this course.
 The following are the steps for creating the environment:
 
 
 1. Click `env.yml` and then click `raw`.
-Right-click, select `Save page as`, specify you want the file saved to your `Downloads` folder, and finally click `Save`.
+Right-click, select `Save page as`, specify you want the file saved to your `Downloads` folder, and finally click `Save` to save the file as `env.yml`.
 2. On Microsoft machines, start up the `Anaconda prompt` program; on MacOSX/Linux machines, start up `Terminal`.
 3. Navigate to where this file is saved.
 E.g., `cd "Downloads"` on Microsoft machines and `cd ~/Downloads` for MacOSX/Linux machines.
 4. Type `conda env create -f env.yml`
-5. This process make take a few minutes.
+5. This process may take a few minutes.
 You may hear your computers fans whirring.
 At some point, you may be prompted with `Proceed ([y]/n)?` in which case you should type `y` and press enter.
 
