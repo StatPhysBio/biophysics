@@ -32,8 +32,8 @@ To become familiar with how to plot using Matplotlib (or other packages), devise
 
 There are many ways to tell stories through data visualization.
 Producing the optimal visual isn't necessarily an easy problem.
-It's easy to to conflate visuals and stories.
-Even if you do choose the optimal type of plot for your story, it's easy to create an ugly plot that no one will want to look at.
+It's easy to make a visual for the story you think you're telling when that visual actually doesn't communicate what story you'd like it to tell.
+Additionally, even if you do choose the optimal type of plot for your story, it's easy to create an ugly plot that no one will want to look at.
 Below are some useful texts on how you can tell stories through data visualization and on making good choices when plotting.
 
 ## Texts on visualization
