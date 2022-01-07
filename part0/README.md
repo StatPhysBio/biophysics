@@ -100,7 +100,8 @@ jupyter lab
 Note: anytime you want to start an instance of JupyterLab, you need to
 
 1. Start `Anaconda prompt`/`Terminal`.
-2. Type `jupyter lab` 
+2. Type ```conda activate biophys2022```.
+3. Type `jupyter lab`.
 
 Among other things in the browser, we should see
 
