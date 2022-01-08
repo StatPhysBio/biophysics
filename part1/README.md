@@ -3,6 +3,25 @@
 The best way to learn programming is by doing. 
 Here, we begin to learn what tools are at our disposal and how to use them.
 
+## Downloading a Jupyter notebook
+1. Click `init_tutorial.ipynb` and then click `raw`.
+2. Right-click, select `Save page as`.
+A new window should pop up.
+3. Specify which folder you want the file to be downloaded to. Perhaps 
+4. There should also be a dropdown menu near the bottom center called "Format" or something similar.
+Make sure you select the format as "All Files" instead of "Text Files" otherwise `init_tutorial.ipynb` will be saved as `init_tutorial.ipynb.txt`.
+
+## Opening the Jupyter notebook
+
+
+1. Start `Anaconda prompt`/`Terminal`.
+2. Type ```conda activate biophys2022```.
+3. Type `jupyter lab`. A browser window should appear, and JupyterLab should be running.
+4. On the left side of your browser, you should see a file system which shows you directories and files in your home directory. Navigate to where you saved `init_tutorial.ipynb`.
+5. Double click `init_tutorial.ipynb`.
+6. Which kernel the notebook is using is shown near the bug-looking button, all the way to the right of the save button. Ensure the kernel is `biophys2022`. 
+
+
 ## Python basics
 
 There are many tutorials for learning Python.
