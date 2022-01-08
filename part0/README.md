@@ -23,18 +23,30 @@ Follow the instructions there and pick whatever options are indicated as the def
 
 ## Setting up the environment
 At this point, we should now have the barebones Miniconda.
-There is a file called `env.yml` in this directory.
+There is a file called `env.yml` in this directory (StatPhysBio/biophysics/part0/ on github).
 This is a configuration file which tells Miniconda to create a virtual environment called `biophys2022` and installs all the packages that we foreseeably need for this course.
 The following are the steps for creating the environment:
 
 
 1. Click `env.yml` and then click `raw`.
-Right-click, select `Save page as`, specify you want the file saved to your `Downloads` folder, and finally click `Save`.
+Right-click, select `Save page as`.
+A new window should pop up.
+Specify you want the file saved to your `Downloads` folder.
+There should also be a dropdown menu near the bottom center called "Format" or something similar.
+Make sure you select the format as "All Files" instead of "Text Files" otherwise `env.yml` will be saved as `env.yml.txt`.
+Finally click `Save` to save the file as `env.yml`.
 2. On Microsoft machines, start up the `Anaconda prompt` program; on MacOSX/Linux machines, start up `Terminal`.
 3. Navigate to where this file is saved.
 E.g., `cd "Downloads"` on Microsoft machines and `cd ~/Downloads` for MacOSX/Linux machines.
-4. Type `conda env create -f env.yml`
-5. This process make take a few minutes.
+4. Type `conda env create -f env.yml`.
+    - If this is not working, the `env.yml` file might have been saved with an additional (hidden) extension, so it may have been saved as `env.yml.txt`.
+    To check this, type `dir env*` on Microsoft machines or `ls env*` for MacOS/Linux machines and press Enter.
+    This should bring up any files in your Downloads directory which have 'env' has its first three letters.
+    See if `env.yml` was actually saved as `env.yml.txt`.
+    If it was, type `move env.yml.txt env.yml` on Microsoft machines or `mv env.yml.txt env.yml` on MacOS/Linux machines.
+    This essentially renames the file.
+    Try `conda env create -f env.yml` again.
+6. This process may take a few minutes.
 You may hear your computers fans whirring.
 At some point, you may be prompted with `Proceed ([y]/n)?` in which case you should type `y` and press enter.
 
@@ -88,7 +100,8 @@ jupyter lab
 Note: anytime you want to start an instance of JupyterLab, you need to
 
 1. Start `Anaconda prompt`/`Terminal`.
-2. Type `jupyter lab` 
+2. Type ```conda activate biophys2022```.
+3. Type `jupyter lab`.
 
 Among other things in the browser, we should see
 
