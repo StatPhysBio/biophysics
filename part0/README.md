@@ -41,14 +41,14 @@ E.g., `cd "Downloads"` on Microsoft machines and `cd ~/Downloads` for MacOSX/Lin
 4. Type `conda env create -f env.yml`.
     - If this is not working, the `env.yml` file might have been saved with an additional (hidden) extension, so it may have been saved as `env.yml.txt`.
     To check this, type `dir env*` on Microsoft machines or `ls env*` for MacOS/Linux machines and press Enter.
-    This should bring up any files in your Downloads directory which have 'env' has its first three letters.
+    This should bring up any files in your Downloads directory which have `env` has its first three letters.
     See if `env.yml` was actually saved as `env.yml.txt`.
     If it was, type `move env.yml.txt env.yml` on Microsoft machines or `mv env.yml.txt env.yml` on MacOS/Linux machines.
     This essentially renames the file.
     Try `conda env create -f env.yml` again.
 6. This process may take a few minutes.
 You may hear your computers fans whirring.
-At some point, you may be prompted with `Proceed ([y]/n)?` in which case you should type `y` and press enter.
+At some point, you may be prompted with `Proceed ([y]/n)?` in which case you should type `y` and press Enter.
 
 If all goes well, you should see
 
