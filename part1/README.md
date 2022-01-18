@@ -7,7 +7,7 @@ Here, we begin to learn what tools are at our disposal and how to use them.
 1. Click `init_tutorial.ipynb` and then click `raw`.
 2. Right-click, select `Save page as`.
 A new window should pop up.
-3. Specify which folder you want the file to be downloaded to. Perhaps 
+3. Specify which folder you want the file to be downloaded to. Perhaps create a directory in your Documents folder called `biophys_wkspace` and save them there.
 4. There should also be a dropdown menu near the bottom center called "Format" or something similar.
 Make sure you select the format as "All Files" instead of "Text Files" otherwise `init_tutorial.ipynb` will be saved as `init_tutorial.ipynb.txt`.
 
