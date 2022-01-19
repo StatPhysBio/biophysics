@@ -9,7 +9,7 @@ Here, we begin to learn what tools are at our disposal and how to use them.
 A new window should pop up.
 3. Specify which folder you want the file to be downloaded to. Perhaps create a directory in your Documents folder called `biophys_wkspace` and save them there.
 4. There should also be a dropdown menu near the bottom center called "Format" or something similar.
-Make sure you select the format as "All Files" instead of "Text Files" otherwise `init_tutorial.ipynb` will be saved as `init_tutorial.ipynb.txt`. If the file is saved as `init_tutorial.ipynb.txt`, you can rename the file and delete the `.txt` from the file's name. This should allow JupyterLab to recognize the file as a `.ipynb` file instead of a `.txt` file.
+Make sure you select the format as "All Files" instead of "Text Files" otherwise `init_tutorial.ipynb` will be saved as `init_tutorial.ipynb.txt`. If the file is saved as `init_tutorial.ipynb.txt`, you can rename the file in the JupyterLab file system and delete the `.txt` from the file's name. This should allow JupyterLab to recognize the file as a `.ipynb` file instead of a `.txt` file.
 
 ## Opening the Jupyter notebook
 
