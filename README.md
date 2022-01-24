@@ -13,8 +13,13 @@ Notably, this page is subject to change and will be updated periodically as the 
 Week 0/1
 
 ### Part 1: Python tutorial
-Week 1
+Weeks 1 - 2
 
 ### Part 2: Numerical integration and the SIR model
 
-Week 2
+Week 3
+
+### Part 3: Statistical distributions, statistics, and the central limit theorem
+
+Week 4
+
