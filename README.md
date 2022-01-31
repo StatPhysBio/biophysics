@@ -23,3 +23,6 @@ Week 3
 
 Week 4
 
+### Part 4: Diffusion and the random walk
+
+Week 5
