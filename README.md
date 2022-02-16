@@ -10,7 +10,7 @@ If you have any difficulty accessing the resources or find the instructions to b
 Notably, this page is subject to change and will be updated periodically as the instructors see fit.
 
 ### Part 0: Setup
-Week 0/1
+Week 0 - 1
 
 ### Part 1: Python tutorial
 Weeks 1 - 2
@@ -26,3 +26,7 @@ Week 4
 ### Part 4: Diffusion and the random walk
 
 Week 5
+
+### Part 5: The Poisson distribution, exponential distribution, and Gillespie algorithm
+
+Week 7 - 8
