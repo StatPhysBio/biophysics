@@ -1,6 +1,6 @@
 # Part 0: Setup
 
-We will **only** be using Python for the programming component of this course.
+We will be using **only** Python for the programming component of this course.
 Python is a great starter language and is open-source.
 It is also versatile and ubiquitous among science and industry.
 We don't expect you to become Python experts by the end of the class.
@@ -24,7 +24,7 @@ Follow the instructions there and pick whatever options are indicated as the def
 ## Setting up the environment
 At this point, we should now have the barebones Miniconda.
 There is a file called `env.yml` in this directory (StatPhysBio/biophysics/part0/ on github).
-This is a configuration file which tells Miniconda to create a virtual environment called `biophys2022` and installs all the packages that we foreseeably need for this course.
+This is a configuration file which tells Miniconda to create a virtual environment called `biophys` and installs all the packages that we foreseeably need for this course.
 The following are the steps for creating the environment:
 
 
@@ -55,7 +55,7 @@ If all goes well, you should see
 ```bash
 To activate this environment, use
 
-    $ conda activate biophys2022
+    $ conda activate biophys
 
 To deactivate an active environment, use
     
@@ -66,7 +66,7 @@ To deactivate an active environment, use
 That's just there to indicate which type of shell you're running--essentially it is out of the scope of this tutorial.
 Just know when you see a $, you don't actually type one.*
 
-We have now created a virtual envinroment called `biophys2022`.
+We have now created a virtual envinroment called `biophys`.
 Activating this environment lets you use the Python and packages specific to what we installed.
 Using virtual environments is a good habit.
 Practically speaking, many packages are developed with different versions of Python and different versions of other packages.
@@ -80,15 +80,15 @@ A very user-friendly, interactive medium is the [Jupyter](https://jupyter.org/) 
 Jupyter notebooks allow you to develop code, conduct data exploration, and tell stories easily.
 In short, using a Jupyter notebook can optimize your workflow, especially when it comes to scientific computing.
 
-In the previous step, we created a virtual environment called `biophys2022`.
+In the previous step, we created a virtual environment called `biophys`.
 This virtual environment will not be recognized automatically by JupyterLab.
 We must now install a kernel for our virtual environment manually.
 
 In `Anaconda prompt` or `Terminal`, type the following
 
 ```bash
-conda activate biophys2022
-python -m ipykernel install --user --name biophys2022 --display-name "biophys2022"
+conda activate biophys
+python -m ipykernel install --user --name biophys --display-name "biophys"
 ```
 
 Next, we want to launch JupyterLab. Type
@@ -100,15 +100,15 @@ jupyter lab
 Note: anytime you want to start an instance of JupyterLab, you need to
 
 1. Start `Anaconda prompt`/`Terminal`.
-2. Type ```conda activate biophys2022```.
+2. Type ```conda activate biophys```.
 3. Type `jupyter lab`.
 
 Among other things in the browser, we should see
 
 ![](imgs/notebook_kernels.png)
 
-Now, anytime you start a notebook for this class, click `biophys2022`.
-It will allow you to use all the scientific computing packages that we installed in the `biophys2022`	virtual environment.
+Now, anytime you start a notebook for this class, click `biophys`.
+It will allow you to use all the scientific computing packages that we installed in the `biophys` virtual environment.
 
 ## Guidelines
 That's all for the setup.
