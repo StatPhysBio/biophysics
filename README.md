@@ -9,24 +9,16 @@ If you have any difficulty accessing the resources or find the instructions to b
 
 Notably, this page is subject to change and will be updated periodically as the instructors see fit.
 
-### Part 0: Setup
-Week 0 - 1
+### [Part 0: Setup](https://github.com/StatPhysBio/biophysics/tree/main/part0)
 
-### Part 1: Python tutorial
-Weeks 1 - 2
+### [Part 1: Python tutorial](https://github.com/StatPhysBio/biophysics/tree/main/part1)
 
-### Part 2: Numerical integration and the SIR model
+### [Part 2: Numerical integration and the SIR model](https://github.com/StatPhysBio/biophysics/tree/main/part2)
 
-Week 3
+### [Part 3: Statistical distributions, statistics, and the central limit theorem](https://github.com/StatPhysBio/biophysics/tree/main/part3)
 
-### Part 3: Statistical distributions, statistics, and the central limit theorem
+### [Part 4: Diffusion and the random walk](https://github.com/StatPhysBio/biophysics/tree/main/part4)
 
-Week 4
+### [Part 5: The Poisson distribution, exponential distribution, and Gillespie algorithm](https://github.com/StatPhysBio/biophysics/tree/main/part5)
 
-### Part 4: Diffusion and the random walk
-
-Week 5
-
-### Part 5: The Poisson distribution, exponential distribution, and Gillespie algorithm
-
-Week 7 - 8
+### [Part 6: Population dynamics with the Moran model](https://github.com/StatPhysBio/biophysics/tree/main/part6)
