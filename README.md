@@ -12,7 +12,7 @@ Notably, this page is subject to change and will be updated periodically as the 
 ### [Part 0: Setup](https://github.com/StatPhysBio/biophysics/tree/main/part0)
 
 ### [Part 1: Python tutorial](https://github.com/StatPhysBio/biophysics/tree/main/part1)
-
+<!--
 ### [Part 2: Numerical integration and the SIR model](https://github.com/StatPhysBio/biophysics/tree/main/part2)
 
 ### [Part 3: Statistical distributions, statistics, and the central limit theorem](https://github.com/StatPhysBio/biophysics/tree/main/part3)
@@ -22,3 +22,4 @@ Notably, this page is subject to change and will be updated periodically as the 
 ### [Part 5: The Poisson distribution, exponential distribution, and Gillespie algorithm](https://github.com/StatPhysBio/biophysics/tree/main/part5)
 
 ### [Part 6: Population dynamics with the Moran model](https://github.com/StatPhysBio/biophysics/tree/main/part6)
+-->
